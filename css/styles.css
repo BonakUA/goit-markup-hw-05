@@ -78,7 +78,6 @@ button {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     margin-right: 76px;
-    margin-bottom: 16px;
 }
 
 .logo-header {
@@ -481,6 +480,7 @@ button {
 .footer-text {
     max-width: 264px;
     color: #F4F4FD;
+    padding-top: 16px;
 }
 
 .footer-socials {
