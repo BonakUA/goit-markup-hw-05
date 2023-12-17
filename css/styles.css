@@ -479,7 +479,6 @@ button {
 }
 
 .footer-text {
-    display: flex;
     max-width: 264px;
     color: #F4F4FD;
 }
