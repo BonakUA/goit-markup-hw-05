@@ -157,8 +157,6 @@ button {
     color: #404BBF;
 }
 
-.main {}
-
 /* HERO */
 
 .hero {
@@ -174,9 +172,6 @@ button {
     background-position: center;
     background-size: cover;
 }
-
-.container-hero {}
-
 
 .title {
     display: block;
@@ -220,8 +215,6 @@ button {
     padding: 120px 0;
 }
 
-.container-section {}
-
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -263,9 +256,6 @@ button {
     margin-bottom: 8px;
 }
 
-.strategic-icon {}
-
-
 .title-secondary {
     color: #2E2F42;
     font-weight: 700;
@@ -297,9 +287,6 @@ button {
     background-color: #F4F4FD;
 }
 
-.container-team {}
-
-
 .team-list {
     display: flex;
 }
@@ -316,8 +303,6 @@ button {
 .team-item:last-child {
     margin-right: 0;
 }
-
-.team-img {}
 
 /* card woker */
 
@@ -339,7 +324,6 @@ button {
     text-align: center;
 }
 
-.socials-item {}
 
 .socials-list {
     display: flex;
@@ -384,8 +368,6 @@ button {
     padding-bottom: 120px;
 }
 
-
-.container-portfolio {}
 
 .portfolio-list {
     display: flex;
@@ -452,7 +434,6 @@ button {
     margin-bottom: 8px;
 }
 
-.portfolio-text {}
 
 /* FOOTER */
 
@@ -482,8 +463,6 @@ button {
     color: #F4F4FD;
     padding-top: 16px;
 }
-
-.footer-socials {}
 
 .footer-socials-title {
     font-weight: 500;
@@ -517,7 +496,7 @@ button {
     background-color: #31D0AA;
 }
 
-/* Subscribe */
+/* FOOTER Form */
 
 .footer-form {
     margin-left: auto;
@@ -527,8 +506,6 @@ button {
     display: flex;
     gap: 24px;
 }
-
-.footer-label {}
 
 .form-field-footer {
     display: flex;
@@ -664,8 +641,6 @@ button {
     margin-top: 0;
 }
 
-.modal-form.form {}
-
 .form-wrapper {
     margin-bottom: 8px;
 }
@@ -711,7 +686,6 @@ button {
     fill: #4D5AE5;
 }
 
-.icon {}
 
 .form-wrapper-comment{
     margin-bottom: 16px;
@@ -745,7 +719,6 @@ button {
     margin-bottom: 24px;
 }
 
-.checkbox {}
 
 .label-checkbox {
     font-size: 12px;
@@ -783,6 +756,7 @@ button {
 
 .label-checkbox-link {
     color: #4d5ae5;
+    text-decoration: underline;
 }
 
 .form-btn {
