@@ -525,6 +525,7 @@ button {
 
 .form {
     display: flex;
+    gap: 24px;
 }
 
 .footer-label {}
@@ -532,25 +533,29 @@ button {
 .form-field-footer {
     display: flex;
     align-items: center;
-    gap: 24px;
+    
 }
 
 .footer-form-text {
     color: #FFF;
     font-weight: 500;
     margin-bottom: 16px;
+    margin-left: 24px;
 }
 
 .footer-input {
     width: 264px;
     height: 40px;
-    padding: 8px 16px;
     color: #FFF;
     border: 1px solid #FFF;
     border-radius: 4px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     outline: transparent;
     background-color: transparent;
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    padding-left: 16px;
 }
 
 .footer-input::placeholder {
@@ -558,7 +563,13 @@ button {
 }
 
 .footer-btn {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
     display: flex;
+    min-width: 165px;
+    height: 40px;
     border-radius: 4px;
     background-color: #4D5AE5;
     padding: 8px 24px;
@@ -567,10 +578,13 @@ button {
     gap: 16px;
     color: #FFF;
     font-weight: 500;
+    cursor: pointer;
+    border: none;
 }
 
 .subscribe-icon {
     fill: currentColor;
+    margin-left: 16px;
 }
 
 /* Modal window */
@@ -654,7 +668,7 @@ button {
 .modal-form.form {}
 
 .form-wrapper {
-    margin-bottom: 8px;
+    margin-bottom: 8%;
 }
 
 .form-label {
@@ -699,6 +713,10 @@ button {
 }
 
 .icon {}
+
+.form-wrapper-comment{
+    margin-bottom: 16px;
+}
 
 .form-label-txt {
     margin-bottom: 16px;
@@ -752,13 +770,14 @@ button {
     margin-right: 8px;
 }
 
-.checkbox:checked+.label-checkbox>.form-label-checkbox {
+/*input:checked + label > span {}*/
+.checkbox:checked +.label-checkbox >.form-label-checkbox {
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
 }
 
-.checkbox:focus+.label-checkbox>.form-label-checkbox {
+.checkbox:focus +.label-checkbox >.form-label-checkbox {
     border-color: #4D5AE5;
 }
 
