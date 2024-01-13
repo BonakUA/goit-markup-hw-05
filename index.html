@@ -24,6 +24,11 @@
 
             <nav class="nav">
                 <a href="./index.html" class="logo">Web<span class="logo-header">Studio</span></a>
+                <button class="nav-btn" type="button" aria-label="Open menu button">
+                    <svg class="nav-btn-icon" width="24" height="24">
+                        <use href="./images/icons.svg#icon-menu"></use>
+                    </svg>
+                </button>
                 <ul class="nav-list">
                     <li class="nav-item">
                         <a class="nav-link studio" href="./index.html">Studio</a>
@@ -470,8 +475,10 @@
                                 <use href="./images/icons.svg#icon-Vector"></use>
                             </svg>
                         </span>
-                        I accept the terms and conditions of the
-                        <a class="label-checkbox-link" href="">Privacy Policy</a>
+                        <span>
+                         I accept the terms and conditions of the
+                         <a class="label-checkbox-link" href="">Privacy Policy</a>
+                        </span>
                     </label>
                 </div>
                 <button class="form-btn btn" type="submit">Send</button>
@@ -479,6 +486,64 @@
         </div>
     </div>
 
+    <!--Mobile MENU-->
+
+    <div class="mobile-menu">
+        <button class="menu-btn" type="button">
+            <svg class="menu-btn-icon" width="8" height="8">
+                <use href="./images/icons.svg#icon-close" aria-label="mobile menu close"></use>
+            </svg>
+        </button>
+        <ul class="mobile-menu-list">
+            <li class="mobile-menu-item">
+                <a class="mobile-menu-link current" href="">Studio</a>
+            </li>
+            <li class="mobile-menu-item">
+                <a class="mobile-menu-link" href="">Portfolio</a>
+            </li>
+            <li class="mobile-menu-item">
+                <a class="mobile-menu-link" href="">Contacts</a>
+            </li>
+        </ul>
+        <ul class="mobile-menu-contacts">
+            <li class="mobile-menu-item">
+                <a class="mobile-menu-contact accent" href="tel:+110001111111">+11 (000) 111-11-11</a>
+            </li>
+            <li class="mobile-menu-item">
+                <a class="mobile-menu-contact" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            </li>
+        </ul>
+        <ul class="mobile-menu-socials-list">
+            <li class="socials-item">
+                <a class="socials-link" href="" target="_blank" rel="noopener noreferrer">
+                    <svg class="social-icon" width="24" height="24">
+                        <use href="./images/icons.svg#icon-instagram"></use>
+                    </svg>
+                </a>
+            </li>
+            <li class="socials-item">
+                <a class="socials-link" href="" target="_blank" rel="noopener noreferrer">
+                    <svg class="social-icon" width="24" height="24">
+                        <use href="./images/icons.svg#icon-twitter"></use>
+                    </svg>
+                </a>
+            </li>
+            <li class="socials-item">
+                <a class="socials-link" href="" target="_blank" rel="noopener noreferrer">
+                    <svg class="social-icon" width="24" height="24">
+                        <use href="./images/icons.svg#icon-facebook"></use>
+                    </svg>
+                </a>
+            </li>
+            <li class="socials-item">
+                <a class="socials-link" href="" target="_blank" rel="noopener noreferrer">
+                    <svg class="social-icon" width="24" height="24">
+                        <use href="./images/icons.svg#icon-linkedin"></use>
+                    </svg>
+                </a>
+            </li>
+        </ul>
+    </div>
 </body>
 
 </html>
